@@ -25,8 +25,9 @@ namespace LogsCalculator
 
             if(steamID64 == string.Empty || steamID3 == string.Empty)
             {
-                steamID64 = "76561198128096130";
-                steamID3 = "[U:1:167830402]";
+                Console.Write("You haven't entered any information. \n\nPress any key to exit...");
+                Console.Read();
+                return;
             }
 
             string[][] logs = Logs.GetLogList("", "", steamID64, 1000);
