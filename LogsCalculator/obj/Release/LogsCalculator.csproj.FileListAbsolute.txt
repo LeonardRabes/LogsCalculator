@@ -1,0 +1,10 @@
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\bin\Release\LogsCalculator.exe.config
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\bin\Release\LogsCalculator.exe
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\bin\Release\LogsCalculator.pdb
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\bin\Release\Newtonsoft.Json.dll
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\bin\Release\Newtonsoft.Json.xml
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\obj\Release\LogsCalculator.csprojAssemblyReference.cache
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\obj\Release\LogsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\obj\Release\LogsCalculator.csproj.CopyComplete
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\obj\Release\LogsCalculator.exe
+C:\Users\leona\Dropbox\LogsCalculator\LogsCalculator\obj\Release\LogsCalculator.pdb
