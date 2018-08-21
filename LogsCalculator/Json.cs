@@ -24,7 +24,7 @@ namespace SteamWebAPI
             }
             catch (WebException errorText)
             { 
-                Console.WriteLine(errorText);
+                //Console.WriteLine(errorText);
                 return errorText.ToString();
             }
         }
