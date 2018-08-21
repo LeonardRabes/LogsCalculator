@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using LogstfAPI;
+using System.Threading;
 
 namespace LogsCalculator
 {
@@ -41,11 +38,13 @@ namespace LogsCalculator
                     p = Logs.GetPlayerPerformance(steamID3, logs[i][1]);
                     player[i] = p;
                     Console.WriteLine(string.Format("Log({0}/{1}): {2} ID: {3} download finished",  i + 1, logs.Length, logs[i][2], logs[i][1]));
+                    Thread.Sleep(50);
                 }
                 catch
                 {
                     Console.WriteLine(string.Format("!Log({0}/{1}): {2} ID: {3} download failed", i + 1, logs.Length, logs[i][2], logs[i][1]));
                     i--;
+                    Thread.Sleep(300);
                 }
             }
 
